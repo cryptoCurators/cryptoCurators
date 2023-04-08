@@ -1,38 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+Abstract:
+The NFT marketplace web application is a platform designed for users to showcase and sell their unique creations as NFTs. The web application is built using Next.js, with integration with Metamask for secure user authentication and Ethereum blockchain for secure and verifiable transactions. With the immutable nature of blockchain, the ownership will be authenticated without any discrepancy. The platform provides a user-friendly interface for users to easily mint and sell their NFTs. The platform is designed with robust security measures to ensure secure transactions. Overall, the NFT marketplace web application provides a platform for users to participate in the growing NFT market, while also promoting their unique creations to a wider audience.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Problem Statement:
+Create a NFT marketplace web application that allows users to sell and buy NFTs using crypto wallet. The web application will have the following features:
+>>Ability for users to create an account and log in to the platform securely using Metamask payment gateway .
+>>A dashboard for users to manage their NFTs, including creating and listing new NFTs for sale, viewing their existing listings and transactions, and updating their account information.
+>>Integration with Ethereum blockchain to ensure that all transactions are secure and verifiable.
+>>The ability for cultural clubs like Fotofreaks and Artfreaks to easily mint and sell their unique NFTs on the platform, with a seamless and user-friendly interface.
+>>Robust security measures to protect user data and transactions from hacking and other cyber attacks.
+>>A responsive and aesthetically pleasing design that is optimized for different devices and screen sizes.
